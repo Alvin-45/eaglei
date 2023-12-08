@@ -271,16 +271,37 @@ footer{
 }
 @media screen and (max-width: 580px)
 {
-    #homemenu,#aboutmenu,#offersmenu,#contactmenu{
+    #homemenu,#aboutmenu,#offersmenu,#contactmenu,#cart{
         display: none;
+        margin-left: 0;
+    }
+    .home,.tagline{
+        width: 500px;
+        height: 600px;
+        margin-left: 50px;
     }
     #li2{
         display: block;
         justify-content: space-between;
+        margin-left: 380px;
     }
-}
-@media screen and (min-width : 480px){
-    nav>.mitem{
-        display: none;
+    .box{
+        width: 100%;
+        height: 700px;
+        margin-left: 20px;
+    }
+    .cakes{
+        width: 100%;
+        height: 700px;
+        flex-wrap: wrap;
+    }
+    
+    .bodybg{
+        width: 100%;
+        height: 500px;
+    }
+    .logo{
+        width: 10px;
+        height: 10px;
     }
 }
